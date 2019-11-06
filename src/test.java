@@ -15,7 +15,7 @@ public class test {
      public static void main(String[] args) {
     int year = Calendar.getInstance().get(Calendar.YEAR);
         int yearCode = year%1000;
-        System.out.println(""+yearCode);
+        System.out.println(""+year);
 
      }
 }
