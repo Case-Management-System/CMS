@@ -16,6 +16,7 @@ public class test {
     int year = Calendar.getInstance().get(Calendar.YEAR);
         int yearCode = year%1000;
         System.out.println(""+yearCode);
+        //change is not needed
 
      }
 }
