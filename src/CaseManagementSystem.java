@@ -13,6 +13,7 @@ public class CaseManagementSystem {
         control.setModel(model);
         control.setView(view);
         view.setController(control);
+        System.out.println("");
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 view.setVisible(true);
